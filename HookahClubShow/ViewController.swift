@@ -10,6 +10,7 @@ import UIKit
 class ViewController: UIViewController {
 
     
+    @IBOutlet weak var progressBar: UIProgressView!
     var timer = Timer()
     var secondsPassed = 0
     var totalTime = 0
@@ -32,7 +33,7 @@ class ViewController: UIViewController {
         
         if secondsPassed < totalTime {
             secondsPassed += 1
-            print(secondsPassed/totalTime)
+            print(Float(secondsPassed)/Float(totalTime))
         }
     }
     
