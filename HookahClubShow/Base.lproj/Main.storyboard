@@ -115,6 +115,9 @@
                             <constraint firstItem="WRQ-7Z-lMw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="t4u-Jf-gGn"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="progressBar" destination="yV9-lI-t7W" id="0Ze-Sa-Cwi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
