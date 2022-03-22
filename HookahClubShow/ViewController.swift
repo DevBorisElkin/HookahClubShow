@@ -37,6 +37,8 @@ class ViewController: UIViewController {
             progressBar.progress = Float(secondsPassed)/Float(totalTime)
             
             print(Float(secondsPassed)/Float(totalTime))
+        } else {
+            
         }
     }
     
